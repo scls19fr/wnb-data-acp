@@ -1,0 +1,97 @@
+---
+  file_format_version: 0.0.1
+  weight_and_balance:
+    date: 01/02/2016
+    version: '1'
+  aircraft:
+    designation: DR400 140B
+    type: DR400-140B
+    immat: F-GLVX
+    picture: f-glvx.png
+    owner: Aéro-Club du Poitou
+    owner_picture: acp.png
+    comment: ''
+  constants:
+    liquids:
+      fuel_100LL:
+        density: 0.72
+  centrogram:
+  - designation: Pt1
+    lever_arm: 0.205
+    mass: 250
+  - designation: Pt2
+    lever_arm: 0.205
+    mass: 750
+  - designation: Pt3
+    lever_arm: 0.428
+    mass: 1000
+  - designation: Pt4
+    lever_arm: 0.564
+    mass: 1000
+  - designation: Pt5
+    lever_arm: 0.564
+    mass: 250
+  loads:
+  - designation: Empty aircraft
+    lever_arm: 0.322
+    mass:
+      default: 610
+    comment: ''
+  - designation: Pilot
+    lever_arm: 0.41
+    mass:
+      default: 70
+      min: 0
+      max: 150
+      step: 1
+    comment: ''
+  - designation: Front passenger
+    lever_arm: 0.41
+    mass:
+      default: 60
+      min: 0
+      max: 150
+      step: 1
+    comment: ''
+  - designation: Rear left passenger
+    lever_arm: 1.19
+    mass:
+      default: 0
+      min: 0
+      max: 150
+      step: 1
+    comment: ''
+  - designation: Rear right passenger
+    lever_arm: 1.19
+    mass:
+      default: 100
+      min: 0
+      max: 150
+      step: 1
+    comment: ''
+  - designation: Luggage
+    lever_arm: 1.9
+    mass:
+      default: 15
+      min: 0
+      max: 40
+      step: 0.1
+    comment: 'max 40kg'
+  - designation: Fuel
+    lever_arm: 1.12
+    liquid: fuel_100LL
+    volume:
+      default: 100
+      min: 0
+      max: 100
+      step: 0.1
+    comment: '110L - 10L'
+  - designation: Additional Fuel
+    lever_arm: 1.61
+    liquid: fuel_100LL
+    volume:
+      default: 40
+      min: 0
+      max: 40
+      step: 0.1
+    comment: ''
