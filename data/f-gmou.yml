@@ -1,21 +1,21 @@
 ---
-  file_format_version: 0.0.1
-  weight_and_balance:
-    date: 13/04/2015
-    version: '1'
-  aircraft:
-    designation: Cessna 152
-    type: C152
-    immat: F-GMOU
-    picture: f-gmou.png
-    owner: Aéro-Club du Poitou
-    owner_picture: acp.png
-    comment: ''
-  constants:
-    liquids:
-      fuel_100LL:
-        density: 0.72
-  centrogram:
+file_format_version: 0.0.1
+weight_and_balance:
+  date: 13/04/2015
+  version: '1'
+aircraft:
+  designation: Cessna 152
+  type: C152
+  immat: F-GMOU
+  picture: f-gmou.png
+  owner: Aéro-Club du Poitou
+  owner_picture: acp.png
+  comment: ''
+constants:
+  liquids:
+    fuel_100LL:
+      density: 0.72
+centrogram:
   - designation: Pt1
     lever_arm: 0.787
     mass: 300
@@ -31,7 +31,7 @@
   - designation: Pt5
     lever_arm: 0.927
     mass: 300
-  loads:
+loads:
   - designation: Empty aircraft
     lever_arm: 0.796607
     mass:

@@ -1,21 +1,21 @@
 ---
-  file_format_version: 0.0.1
-  weight_and_balance:
-    date: 21/03/2006
-    version: '1'
-  aircraft:
-    designation: Cessna 150
-    type: C150
-    immat: F-BUBK
-    picture: f-bubk.png
-    owner: Aéro-Club du Poitou
-    owner_picture: acp.png
-    comment: ''
-  constants:
-    liquids:
-      fuel_100LL:
-        density: 0.72
-  centrogram:
+file_format_version: 0.0.1
+weight_and_balance:
+  date: 21/03/2006
+  version: '1'
+aircraft:
+  designation: Cessna 150
+  type: C150
+  immat: F-BUBK
+  picture: f-bubk.png
+  owner: Aéro-Club du Poitou
+  owner_picture: acp.png
+  comment: ''
+constants:
+  liquids:
+    fuel_100LL:
+      density: 0.72
+centrogram:
   - designation: Pt1
     lever_arm: 0.8
     mass: 250
@@ -31,7 +31,7 @@
   - designation: Pt5
     lever_arm: 0.952
     mass: 250
-  loads:
+loads:
   - designation: Empty aircraft
     lever_arm: 0.862
     mass:
