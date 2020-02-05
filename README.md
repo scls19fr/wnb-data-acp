@@ -2,7 +2,7 @@
 
 ## EN
 
-Aircraft data from [acp](http://www.aero-club-poitou.fr/) for [W'n'b (weight and balance)](https://github.com/scls19fr/wnb) application.
+Aircrafts data from [acp](http://www.aero-club-poitou.fr/) for [W'n'b (weight and balance)](https://github.com/scls19fr/wnb) application.
 
 Please use this data at your own risk.
 
