@@ -1,0 +1,11 @@
+---
+file_format_version: 0.0.1
+application: wnb
+usage: aircrafts-index
+aircrafts:
+- f-bubk.yml
+- f-giya.yml
+- f-gkqa.yml
+- f-glvx.yml
+- f-gmou.yml
+- f-hppl.yml
