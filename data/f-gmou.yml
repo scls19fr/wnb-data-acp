@@ -1,5 +1,7 @@
 ---
 file_format_version: 0.0.1
+application: wnb
+usage: aircraft-wnb-data
 weight_and_balance:
   date: 13/04/2015
   version: '1'
