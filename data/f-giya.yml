@@ -6,6 +6,7 @@ weight_and_balance:
   date: 27/02/2014
   version: '1'
 aircraft:
+  category: airplane
   designation: Cessna 152
   type: C152
   immat: F-GIYA

@@ -6,6 +6,7 @@ weight_and_balance:
   date: 01/02/2016
   version: '1'
 aircraft:
+  category: airplane
   designation: DR400 140B
   type: DR400-140B
   immat: F-GLVX
