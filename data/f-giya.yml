@@ -51,7 +51,7 @@ loads:
   - designation: Passenger
     lever_arm: 1.0
     mass:
-      default: 70
+      default: 50
       min: 0
       max: 150
       step: 1
@@ -59,7 +59,7 @@ loads:
   - designation: Luggage
     lever_arm: 1.63
     mass:
-      default: 54
+      default: 5
       min: 0
       max: 54
       step: 0.1
@@ -68,7 +68,7 @@ loads:
     lever_arm: 1.003
     liquid: fuel_100LL
     volume:
-      default: 92
+      default: 88.8
       min: 0
       max: 92
       step: 0.1
