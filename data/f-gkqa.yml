@@ -35,12 +35,12 @@ centrogram:
     lever_arm: 0.564
     mass: 650
 loads:
-  - designation: Empty aircraft
+  - designation: empty_aircraft
     lever_arm: 0.29
     mass:
       default: 606
     comment: ''
-  - designation: Pilot
+  - designation: pilot
     lever_arm: 0.41
     mass:
       default: 84
@@ -48,7 +48,7 @@ loads:
       max: 150
       step: 1
     comment: ''
-  - designation: Front passenger
+  - designation: front_passenger
     lever_arm: 0.41
     mass:
       default: 70
@@ -56,7 +56,7 @@ loads:
       max: 150
       step: 1
     comment: ''
-  - designation: Rear left passenger
+  - designation: rear_left_passenger
     lever_arm: 1.19
     mass:
       default: 0
@@ -64,7 +64,7 @@ loads:
       max: 150
       step: 1
     comment: ''
-  - designation: Rear right passenger
+  - designation: rear_right_passenger
     lever_arm: 1.19
     mass:
       default: 100
@@ -72,7 +72,7 @@ loads:
       max: 150
       step: 1
     comment: ''
-  - designation: Luggage
+  - designation: luggage
     lever_arm: 1.9
     mass:
       default: 15
