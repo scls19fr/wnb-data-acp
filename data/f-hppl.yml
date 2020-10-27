@@ -49,7 +49,7 @@ loads:
     mass:
       default: 325
     comment: ''
-  - designation: Pilot
+  - designation: pilot
     lever_arm: 0.545
     mass:
       default: 100
