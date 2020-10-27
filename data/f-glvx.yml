@@ -80,7 +80,7 @@ loads:
       max: 40
       step: 0.1
     comment: 'max 40kg'
-  - designation: Fuel
+  - designation: fuel
     lever_arm: 1.12
     liquid: fuel_100LL
     volume:
@@ -89,7 +89,7 @@ loads:
       max: 100
       step: 0.1
     comment: '110L - 10L'
-  - designation: Additional Fuel
+  - designation: additional_fuel
     lever_arm: 1.61
     liquid: fuel_100LL
     volume:
