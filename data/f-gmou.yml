@@ -35,7 +35,7 @@ centrogram:
     lever_arm: 0.927
     mass: 300
 loads:
-  - designation: Empty aircraft
+  - designation: empty_aircraft
     lever_arm: 0.796607
     mass:
       default: 554
