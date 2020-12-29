@@ -3,7 +3,7 @@ application: wnb
 usage: aircraft-wnb-data
 file_format_version: 0.0.1
 weight_and_balance:
-  date: 21/03/2006
+  date: 12/01/2020
   version: '1'
 aircraft:
   category: airplane
@@ -36,14 +36,14 @@ centrogram:
     mass: 250
 loads:
   - designation: empty_aircraft
-    lever_arm: 0.862
+    lever_arm: 0.855
     mass:
-      default: 520
+      default: 504
     comment: ''
   - designation: pilot
     lever_arm: 0.993
     mass:
-      default: 77
+      default: 75
       min: 0
       max: 150
       step: 1
@@ -65,7 +65,7 @@ loads:
       step: 0.1
     comment: ''
   - designation: fuel
-    lever_arm: 1.07
+    lever_arm: 1.070
     liquid: fuel_100LL
     volume:
       default: 85
